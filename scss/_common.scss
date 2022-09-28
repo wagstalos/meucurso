@@ -1,0 +1,45 @@
+.kc_title{
+    line-height: 5px;
+    background: linear-gradient(180deg, rgba(250, 0, 0, 0) 75%, #9ffff6  75%);
+    display: inline;
+    line-height: 32px;
+    position: relative;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.d-center{
+    align-items: center;
+}
+
+.margin{
+    margin-right: 2rem;
+}
+p {
+    font-size: 1.6rem;
+    line-height: 165%;
+    color: #5E5570;
+}
+
+.icon {
+    width: 6.4rem;
+    height: 6.4rem;
+    background-color: rgba(197,190,220,0.1);
+    border-radius: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
