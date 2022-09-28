@@ -3,7 +3,7 @@
 <h1 align="center"># Projeto hostinger </h1>
 
 <h1 align="center">
-    <a href="https://wagstalos.github.io/projeto-hostinger/">🔗 link  do projeto</a>
+    <a href="https://wpsgames.com.br/sites/meucurso/">🔗 link  do projeto</a>
 </h1>
 
 ## Descrição do Projeto
@@ -15,7 +15,7 @@
 <img src="https://img.shields.io/static/v1?label=Status&message=OK&color=2ecc71&style=for-the-badge&logo="/>
 </h1>
 
-   <img src="https://github.com/wagstalos/projeto-hostinger/blob/master/img/screenshot.png" alt="">
+   <img src="https://wpsgames.com.br/sites/meucurso/img/nehero.pngg" alt="">
 
 
 
