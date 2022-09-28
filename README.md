@@ -15,7 +15,7 @@
 <img src="https://img.shields.io/static/v1?label=Status&message=OK&color=2ecc71&style=for-the-badge&logo="/>
 </h1>
 
-   <img src="https://wpsgames.com.br/sites/meucurso/img/nehero.pngg" alt="">
+   <img src="https://wpsgames.com.br/sites/meucurso/img/nehero.png" alt="">
 
 
 
