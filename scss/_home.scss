@@ -1,10 +1,10 @@
 .s-hero{
     background-color: $purple;
-     //margin-top: 11.9rem;
     padding-top: 11.9rem;
     padding-bottom: 5.9rem;
     .container{
         @include flex(row, flex-start, space-between);
+        align-items: flex-end;
     }
     .text{
         width: 100%;
