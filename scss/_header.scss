@@ -16,7 +16,8 @@ header{
             display: flex;
             align-items: center;
             .btn-contrast{
-                background-color: $orange;
+                // background-color: #9FFFF6;
+                background: -webkit-linear-gradient(#4ffeec, #09dbc6);
                 a{
                    span{
                     color: $white;

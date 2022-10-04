@@ -2,6 +2,7 @@
     background-color: $purple;
      //margin-top: 11.9rem;
     padding-top: 11.9rem;
+    padding-bottom: 5.9rem;
     .container{
         @include flex(row, flex-start, space-between);
     }
@@ -60,7 +61,7 @@
             .icon{
                 width: 4.2rem;
                 height: 4.2rem;
-                background-color: $purple-dark;
+                background-color: #816ef5;
                 border-radius: 6px;
                 @include flex(row, center, center)
             }
@@ -69,20 +70,21 @@
                 font-size: 1.6rem;
                 line-height: 1.9rem;
                 color: $white;
-                margin-left: 1.6rem;
+                margin-bottom: 2.6rem;
             }
         }
     }
     .image {
         position: relative;
         top: 3.4rem;
+        margin: 0 auto;
 
     }
     .partners{
         ul{
             display: flex;
             li{
-                margin-left: 8px;
+                margin-right: 16px;
             }
         }
         
@@ -97,6 +99,12 @@
             h1{
                 text-align: center;
             }
+            h2{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: transparent;
+            }
             p{
                 max-width: 100%;
                 text-align: center;
@@ -110,6 +118,12 @@
                 justify-content: center;
             }
         }
+        .partners{
+            ul{
+                align-items: center;
+                justify-content: center;
+            }  
+        }
     }
 
     @include responsive(600px){
@@ -118,6 +132,11 @@
         .text{
             h1{
                 font-size: 4.3rem;
+            }
+            h2{
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
         }
         .image{
@@ -277,10 +296,13 @@
         margin: 0 auto;
         }
     }
-    @include responsive(768px) {
+    @include responsive(961px) {
         .container{
             @include flex(column, flex-start, space-between);
             text-align: center;
+            .col-1{
+                max-width: 100%;
+            }
             .icon{
                 margin: 0 auto;
                 margin-bottom: 2rem;
